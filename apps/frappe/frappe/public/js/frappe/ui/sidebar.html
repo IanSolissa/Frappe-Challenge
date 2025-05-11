@@ -1,16 +1,59 @@
 <div class="body-sidebar-container">
-	<div class="body-sidebar-placeholder"></div>
-		<div class="body-sidebar">
-			<div class="body-sidebar-top">
-				<div class="sidebar-items">
-				</div>
+
+	<div class="body-sidebar">
+		<div class="body-sidebar-top">
+			<div class="sidebar-items">
+
 			</div>
-			<div class="body-sidebar-bottom">
-				<a class="collapse-sidebar-link">
-					<svg class="icon" style="margin-top: -2px">
-						<use href="#icon-arrow-right-to-line"></use></svg> {%= __("Collapse") %}</a>
-			</div>
+			<!-- <a href="/performance"> Performance</a> -->
 		</div>
-		<div class="overlay" style="z-index: 1021;"></div>
+
+		<div class="body-sidebar-bottom">
+			<a class="collapse-sidebar-link">
+				<svg class="icon" style="margin-top: -2px">
+					<use href="#icon-arrow-right-to-line"></use>
+				</svg> {%= __("Collapse") %}</a>
+		</div>
 	</div>
+	<div class="overlay" style="z-index: 1021;"></div>
 </div>
+</div>
+
+<style>
+	.active-sidebar {
+		background: #B3BBE6;
+
+	}
+
+	.sidebar-items {
+		gap: 8px;
+		margin-top: 10%;
+
+	}
+
+	.sidebar-item-container {
+
+		height: 45px;
+		display: flex;
+		align-items: center;
+	}
+
+	.standard-sidebar-item {
+		height: 100%;
+		width: 100%;
+		padding: 6px 8px;
+
+	}
+
+	.standard-sidebar-item:hover {
+		background: #B3BBE6;
+
+
+	}
+
+	.standard-sidebar-item:active {
+		background: #B3BBE6;
+
+
+	}
+</style>

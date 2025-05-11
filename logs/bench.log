@@ -49,3 +49,14 @@
 2025-05-12 02:16:41,309 INFO /home/lisian/.local/bin/bench worker
 2025-05-12 02:16:41,330 INFO /home/lisian/.local/bin/bench watch
 2025-05-12 02:16:41,330 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-12 02:38:53,716 INFO /home/lisian/.local/bin/bench start
+2025-05-12 02:38:54,083 INFO /home/lisian/.local/bin/bench schedule
+2025-05-12 02:38:54,085 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-12 02:38:54,086 INFO /home/lisian/.local/bin/bench watch
+2025-05-12 02:38:54,098 INFO /home/lisian/.local/bin/bench worker
+2025-05-12 02:40:55,004 INFO /home/lisian/.local/bin/bench --site localhost set-config developer_mode 1
+2025-05-12 02:41:06,083 INFO /home/lisian/.local/bin/bench --site clear-cache
+2025-05-12 02:41:10,390 INFO /home/lisian/.local/bin/bench clear-cache
+2025-05-12 02:41:18,422 INFO /home/lisian/.local/bin/bench setup requirements --dev
+2025-05-12 02:41:19,318 DEBUG cd /home/lisian/trash2/frappe-bench && /home/lisian/trash2/frappe-bench/env/bin/python -m pip install --quiet --upgrade coverage~=6.5.0 Faker~=18.10.1 pyngrok~=6.0.0 unittest-xml-reporting~=3.2.0 watchdog~=3.0.0 hypothesis~=6.77.0 responses==0.23.1 freezegun~=1.2.2 pdbpp~=0.10.3 
+2025-05-12 02:41:26,501 INFO A newer version of bench is available: 5.24.1 → 5.25.0

@@ -3,6 +3,7 @@
  "db_password": "Sf2P3vFPeUBSYLR2",
  "db_type": "mariadb",
  "db_user": "_fa69ba2882116bcc",
+ "developer_mode": 1,
  "user_type_doctype_limit": {
   "employee_self_service": 40
  }
