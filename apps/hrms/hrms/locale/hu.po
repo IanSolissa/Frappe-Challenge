@@ -5870,7 +5870,7 @@ msgid "Fractional Cost"
 msgstr ""
 
 #: frontend/src/components/BaseLayout.vue:9
-msgid "Frappe HR"
+msgid "Fayolex"
 msgstr ""
 
 #. Label of the frequency (Select) field in DocType 'Shift Schedule'
@@ -7004,7 +7004,7 @@ msgstr ""
 
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
-msgid "Install Frappe HR"
+msgid "Install Fayolex"
 msgstr ""
 
 #: hrms/hr/doctype/leave_application/leave_application.py:434
@@ -8222,7 +8222,7 @@ msgid "Login Failed"
 msgstr ""
 
 #: frontend/src/views/Login.vue:8
-msgid "Login to Frappe HR"
+msgid "Login to Fayolex"
 msgstr ""
 
 #. Label of the longitude (Float) field in DocType 'Employee Checkin'

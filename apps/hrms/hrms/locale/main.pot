@@ -1,11 +1,11 @@
-# Translations template for Frappe HR.
+# Translations template for Fayolex.
 # Copyright (C) 2025 Frappe Technologies Pvt. Ltd.
-# This file is distributed under the same license as the Frappe HR project.
+# This file is distributed under the same license as the Fayolex project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Frappe HR VERSION\n"
+"Project-Id-Version: Fayolex VERSION\n"
 "Report-Msgid-Bugs-To: contact@frappe.io\n"
 "POT-Creation-Date: 2025-05-04 09:34+0000\n"
 "PO-Revision-Date: 2025-05-04 09:34+0000\n"
@@ -5872,7 +5872,7 @@ msgid "Fractional Cost"
 msgstr ""
 
 #: frontend/src/components/BaseLayout.vue:9
-msgid "Frappe HR"
+msgid "Fayolex"
 msgstr ""
 
 #. Label of the frequency (Select) field in DocType 'Shift Schedule'
@@ -7010,7 +7010,7 @@ msgstr ""
 
 #: frontend/src/components/InstallPrompt.vue:5
 #: frontend/src/components/InstallPrompt.vue:28
-msgid "Install Frappe HR"
+msgid "Install Fayolex"
 msgstr ""
 
 #: hrms/hr/doctype/leave_application/leave_application.py:436
@@ -8228,7 +8228,7 @@ msgid "Login Failed"
 msgstr ""
 
 #: frontend/src/views/Login.vue:8
-msgid "Login to Frappe HR"
+msgid "Login to Fayolex"
 msgstr ""
 
 #. Label of the longitude (Float) field in DocType 'Employee Checkin'
