@@ -1,11 +1,13 @@
 .page-title {
 	display: flex;
 	align-items: center;
+
 	.sidebar-toggle-btn {
 		display: flex;
 		margin-right: var(--margin-sm);
 		cursor: pointer;
 		--icon-stroke: var(--gray-700);
+
 		.sidebar-toggle-icon {
 			display: none;
 		}
@@ -19,6 +21,7 @@
 			.sidebar-toggle-icon {
 				display: block;
 			}
+
 			.sidebar-toggle-placeholder {
 				display: none;
 			}
@@ -26,6 +29,7 @@
 	}
 
 	@media (min-width: 992px) {
+
 		// only for small screens
 		.sidebar-toggle-btn {
 			display: none;
@@ -35,6 +39,7 @@
 	.title-area {
 		display: inline-flex;
 		align-items: center;
+
 		.title-text {
 			@include get_textstyle("xl", "semibold");
 			cursor: pointer;
@@ -42,9 +47,11 @@
 			margin-right: var(--margin-sm);
 			max-width: 25vw;
 		}
+
 		.indicator-pill {
 			margin-top: 2px;
 		}
+
 		.sub-heading {
 			@include get_textstyle("sm", "regular");
 		}
@@ -62,12 +69,14 @@
 
 .page-actions {
 	align-items: center;
+
 	.btn {
 		height: var(--btn-height);
 		margin-left: var(--margin-sm, 8px);
 		border-radius: var(--border-radius);
 		line-height: 1;
 		padding: 4px 8px;
+
 		&,
 		& .hidden-xs {
 			display: inline-flex;
@@ -75,13 +84,16 @@
 			gap: 6px;
 		}
 	}
+
 	.btn:not(.icon-btn) {
 		padding: 4px 8px;
 	}
+
 	.btn-primary,
 	.btn-secondary {
 		min-width: 40px;
 	}
+
 	.custom-btn-group {
 		display: inline-flex;
 	}
@@ -117,17 +129,29 @@
 	}
 }
 
+.custome-header {
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+	align-items: center;
+}
+
 .page-form {
 	margin: 0;
 	padding: var(--padding-xs) var(--padding-md);
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	flex-wrap: wrap;
 	background-color: var(--card-bg);
+
+
 
 	.form-group {
 		padding: 0 10px 0 0;
 		margin: 5px 0;
 	}
+
 	.checkbox {
 		margin-top: 4px;
 		margin-bottom: 4px;
@@ -137,7 +161,7 @@
 		}
 	}
 
-	.awesomplete > ul {
+	.awesomplete>ul {
 		min-width: 300px;
 	}
 }
@@ -145,10 +169,12 @@
 .form-inner-toolbar {
 	.inner-group-button {
 		display: inline-flex;
+
 		.icon {
 			margin-right: -var(--margin-xs);
 		}
 	}
+
 	button {
 		margin-left: var(--margin-sm);
 	}
@@ -158,6 +184,7 @@
 .custom-btn-group,
 .page-icon-group {
 	display: flex;
+
 	.dropdown-menu {
 		width: max-content;
 	}
@@ -181,6 +208,7 @@
 
 	.frappe-list,
 	.report-wrapper {
+
 		.result,
 		.no-result,
 		.freeze {
@@ -201,10 +229,12 @@
 			height: 60px;
 			width: auto;
 			margin-bottom: var(--margin-md);
+
 			img {
 				fill: var(--fg-color);
 			}
 		}
+
 		p {
 			@include get_textstyle("base", "regular");
 		}

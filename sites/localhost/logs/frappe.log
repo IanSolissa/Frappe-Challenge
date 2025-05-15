@@ -1,0 +1,57 @@
+2025-05-12 03:01:40,172 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'new_page': '{"content":"[{\\"type\\":\\"header\\",\\"data\\":{\\"text\\":\\"Performance > Masters\\"}}]","name":"Performance > Masters-Administrator","label":"Performance > Masters-Administrator","title":"Performance > Masters","public":0,"for_user":"Administrator","parent_page":"","is_editable":true,"selected":true,"app":"hrms","type":"Link","link_type":"Page","link_to":"organizational-chart"}', 'cmd': 'frappe.desk.doctype.workspace.workspace.new_page'}
+2025-05-12 03:03:30,402 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'testing', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 16:50:01,652 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'performance-evaluation', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 18:47:24,721 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'doctype': 'KRA', 'fields': '["`tabKRA`.`name`","`tabKRA`.`owner`","`tabKRA`.`creation`","`tabKRA`.`modified`","`tabKRA`.`modified_by`","`tabKRA`.`_user_tags`","`tabKRA`.`_comments`","`tabKRA`.`_assign`","`tabKRA`.`_liked_by`","`tabKRA`.`docstatus`","`tabKRA`.`idx`","`tabKRA`.`title`"]', 'filters': '[["KRA","name","=",null]]', 'order_by': '`tabKRA`.creation asc', 'start': '0', 'page_length': '20', 'view': 'List', 'group_by': '', 'with_comment_count': '1', 'cmd': 'frappe.desk.reportview.get'}
+2025-05-13 19:07:29,032 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'app', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 19:07:34,128 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'app', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 20:22:28,192 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'doctype': 'Custom HTML Block', 'docname': 'Card Performance ( Masters)', 'name': 'Card Performance (Masters)', 'enqueue': 'true', 'merge': '1', 'freeze': 'true', 'freeze_message': 'Updating related fields...', 'cmd': 'frappe.model.rename_doc.update_document_title'}
+2025-05-13 20:35:06,516 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'performance-evaluation', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:04:04,373 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'promotions', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:09:14,568 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'energy-points', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:11:00,230 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'promotions', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:12:34,815 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+2025-05-13 21:13:45,073 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'energy-points', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:13:55,529 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'promotions', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:14:40,312 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'promotions', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:18:23,105 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'energy-points', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:22:31,001 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'promotion', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:23:26,756 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'reports', 'cmd': 'frappe.desk.desk_page.getpage'}
+2025-05-13 21:25:16,554 ERROR frappe New Exception collected in error log
+Site: localhost
+Form Dict: {'name': 'custom-documents', 'cmd': 'frappe.desk.desk_page.getpage'}

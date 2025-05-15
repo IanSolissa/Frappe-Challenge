@@ -58,8 +58,8 @@ frappe.ui.Dialog = class Dialog extends frappe.ui.FieldGroup {
 		if (this.primary_action || (this.action.primary && this.action.primary.onsubmit)) {
 			this.set_primary_action(
 				this.primary_action_label ||
-					this.action.primary.label ||
-					__("Submit", null, "Primary action in dialog"),
+				this.action.primary.label ||
+				__("Submit", null, "Primary action in dialog"),
 				this.primary_action || this.action.primary.onsubmit
 			);
 		}
@@ -229,7 +229,9 @@ frappe.ui.Dialog = class Dialog extends frappe.ui.FieldGroup {
 	}
 
 	make_head() {
+
 		this.set_title(this.title);
+		// this.set_title('Fayolex');
 	}
 
 	set_title(t) {
@@ -318,7 +320,7 @@ frappe.ui.Dialog = class Dialog extends frappe.ui.FieldGroup {
 		action && action_button.click(action);
 	}
 
-	add_custom_button() {}
+	add_custom_button() { }
 };
 
 frappe.ui.hide_open_dialog = () => {

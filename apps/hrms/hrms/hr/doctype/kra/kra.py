@@ -6,4 +6,6 @@ from frappe.model.document import Document
 
 
 class KRA(Document):
-	pass
+	def validate(self):
+		if self.score > 100:
+			frappe.throw("Nilai maksimal score adalah 100.")

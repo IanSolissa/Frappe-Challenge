@@ -60,3 +60,160 @@
 2025-05-12 02:41:18,422 INFO /home/lisian/.local/bin/bench setup requirements --dev
 2025-05-12 02:41:19,318 DEBUG cd /home/lisian/trash2/frappe-bench && /home/lisian/trash2/frappe-bench/env/bin/python -m pip install --quiet --upgrade coverage~=6.5.0 Faker~=18.10.1 pyngrok~=6.0.0 unittest-xml-reporting~=3.2.0 watchdog~=3.0.0 hypothesis~=6.77.0 responses==0.23.1 freezegun~=1.2.2 pdbpp~=0.10.3 
 2025-05-12 02:41:26,501 INFO A newer version of bench is available: 5.24.1 → 5.25.0
+2025-05-12 02:47:07,243 INFO /home/lisian/.local/bin/bench migrate
+2025-05-12 02:47:14,080 INFO /home/lisian/.local/bin/bench --site localhost migrate
+2025-05-12 02:47:29,201 INFO /home/lisian/.local/bin/bench --site localhost migrate
+2025-05-12 02:49:31,282 INFO /home/lisian/.local/bin/bench --site localhost backup
+2025-05-12 02:49:50,979 INFO /home/lisian/.local/bin/bench --site localhost backup with-files
+2025-05-12 02:50:24,408 INFO /home/lisian/.local/bin/bench --site localhost export-fixtures
+2025-05-12 02:51:06,854 INFO /home/lisian/.local/bin/bench new-site localhost
+2025-05-12 02:51:10,883 INFO /home/lisian/.local/bin/bench new-site localhost --force
+2025-05-12 02:52:21,949 INFO /home/lisian/.local/bin/bench migrate
+2025-05-12 02:52:29,845 INFO /home/lisian/.local/bin/bench --site localhost migrate
+2025-05-12 02:52:45,290 INFO /home/lisian/.local/bin/bench --site localhost list-apps
+2025-05-12 02:52:59,348 INFO /home/lisian/.local/bin/bench --site localhost install-app hrms
+2025-05-12 02:57:44,339 INFO /home/lisian/.local/bin/bench --site localhost clear-cache
+2025-05-12 02:57:51,096 INFO /home/lisian/.local/bin/bench setup requirements --dev
+2025-05-12 02:57:51,964 DEBUG cd /home/lisian/trash2/frappe-bench && /home/lisian/trash2/frappe-bench/env/bin/python -m pip install --quiet --upgrade coverage~=6.5.0 Faker~=18.10.1 pyngrok~=6.0.0 unittest-xml-reporting~=3.2.0 watchdog~=3.0.0 hypothesis~=6.77.0 responses==0.23.1 freezegun~=1.2.2 pdbpp~=0.10.3 
+2025-05-12 02:57:55,099 INFO A newer version of bench is available: 5.24.1 → 5.25.0
+2025-05-12 02:58:02,082 INFO /home/lisian/.local/bin/bench start
+2025-05-12 02:58:02,795 INFO /home/lisian/.local/bin/bench worker
+2025-05-12 02:58:02,809 INFO /home/lisian/.local/bin/bench schedule
+2025-05-12 02:58:02,814 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-12 02:58:02,820 INFO /home/lisian/.local/bin/bench watch
+2025-05-12 11:44:38,029 INFO /home/lisian/.local/bin/bench start
+2025-05-12 11:44:38,819 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-12 11:44:38,824 INFO /home/lisian/.local/bin/bench watch
+2025-05-12 11:44:38,844 INFO /home/lisian/.local/bin/bench schedule
+2025-05-12 11:44:38,894 INFO /home/lisian/.local/bin/bench worker
+2025-05-12 12:00:01,760 INFO /home/lisian/.local/bin/bench --verbose --site all backup
+2025-05-13 11:38:10,366 INFO /home/lisian/.local/bin/bench start
+2025-05-13 11:38:10,838 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 11:38:10,855 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 11:38:10,869 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 11:38:10,877 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 12:00:02,443 INFO /home/lisian/.local/bin/bench --verbose --site all backup
+2025-05-13 14:49:47,914 INFO /home/lisian/.local/bin/bench start
+2025-05-13 14:49:48,444 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 14:49:48,450 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 14:49:48,474 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 14:49:48,475 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 14:50:22,177 INFO /home/lisian/.local/bin/bench start
+2025-05-13 14:50:22,550 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 14:50:22,560 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 14:50:22,561 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 14:50:22,570 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 15:32:20,074 INFO /home/lisian/.local/bin/bench --site localhost install-app hrms
+2025-05-13 15:33:09,003 INFO /home/lisian/.local/bin/bench --site localhost add-to-hosts
+2025-05-13 15:49:20,643 INFO /home/lisian/.local/bin/bench --site localhost export-fixture
+2025-05-13 15:49:27,919 INFO /home/lisian/.local/bin/bench --site localhost export-fixtures
+2025-05-13 15:49:57,221 INFO /home/lisian/.local/bin/bench start
+2025-05-13 15:50:00,777 INFO /home/lisian/.local/bin/bench start
+2025-05-13 15:50:08,390 INFO /home/lisian/.local/bin/bench --site localhost export-fixtures
+2025-05-13 15:50:16,302 INFO /home/lisian/.local/bin/bench migrate
+2025-05-13 15:50:24,924 INFO /home/lisian/.local/bin/bench --site localhost migrate
+2025-05-13 15:53:31,491 INFO /home/lisian/.local/bin/bench start
+2025-05-13 15:53:32,590 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 15:53:32,599 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 15:53:32,602 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 15:53:32,607 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 16:15:28,337 INFO /home/lisian/.local/bin/bench start
+2025-05-13 16:15:29,043 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 16:15:29,052 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 16:15:29,071 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 16:15:29,077 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 16:15:52,928 INFO /home/lisian/.local/bin/bench --site localhost2 add-to-hosts
+2025-05-13 16:15:59,040 INFO /home/lisian/.local/bin/bench start
+2025-05-13 16:15:59,421 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 16:15:59,433 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 16:15:59,435 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 16:15:59,438 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 16:39:07,975 INFO /home/lisian/.local/bin/bench --site localhost export-fixtures
+2025-05-13 16:39:17,849 INFO /home/lisian/.local/bin/bench --site localhost migrate
+2025-05-13 16:39:33,957 INFO /home/lisian/.local/bin/bench start
+2025-05-13 16:39:34,775 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 16:39:34,779 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 16:39:34,779 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 16:39:34,796 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 16:39:36,202 INFO /home/lisian/.local/bin/bench --site localhost migrate
+2025-05-13 16:42:04,780 INFO /home/lisian/.local/bin/bench --app hrms build
+2025-05-13 16:42:17,609 INFO /home/lisian/.local/bin/bench build --app hrms
+2025-05-13 16:46:46,185 INFO /home/lisian/.local/bin/bench build --skip-minify
+2025-05-13 17:09:31,491 INFO /home/lisian/.local/bin/bench start
+2025-05-13 17:09:32,280 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 17:09:32,297 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 17:09:32,312 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 17:09:32,313 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 17:20:42,504 INFO /home/lisian/.local/bin/bench start
+2025-05-13 17:20:47,500 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 17:20:47,505 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 17:20:47,567 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 17:20:47,590 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 18:00:03,240 INFO /home/lisian/.local/bin/bench --verbose --site all backup
+2025-05-13 19:09:06,463 INFO /home/lisian/.local/bin/bench start
+2025-05-13 19:09:07,337 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 19:09:07,355 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 19:09:07,358 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 19:09:07,370 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 20:14:43,120 INFO /home/lisian/.local/bin/bench start
+2025-05-13 20:14:43,684 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 20:14:43,690 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 20:14:43,691 INFO /home/lisian/.local/bin/bench schedule
+2025-05-13 20:14:43,696 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 21:37:08,365 INFO /home/lisian/.local/bin/bench start
+2025-05-13 21:37:09,621 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-13 21:37:09,643 INFO /home/lisian/.local/bin/bench worker
+2025-05-13 21:37:09,645 INFO /home/lisian/.local/bin/bench watch
+2025-05-13 21:37:09,650 INFO /home/lisian/.local/bin/bench schedule
+2025-05-14 14:37:14,585 INFO /home/lisian/.local/bin/bench start
+2025-05-14 14:37:14,953 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-14 14:37:14,961 INFO /home/lisian/.local/bin/bench watch
+2025-05-14 14:37:14,965 INFO /home/lisian/.local/bin/bench schedule
+2025-05-14 14:37:14,970 INFO /home/lisian/.local/bin/bench worker
+2025-05-14 15:26:09,356 INFO /home/lisian/.local/bin/bench export-json
+2025-05-14 15:26:24,085 INFO /home/lisian/.local/bin/bench help
+2025-05-14 15:26:27,247 INFO /home/lisian/.local/bin/bench --help
+2025-05-14 15:27:15,531 INFO /home/lisian/.local/bin/bench --site localhost export-json
+2025-05-14 15:27:24,967 INFO /home/lisian/.local/bin/bench --site localhost export-json performance.json
+2025-05-14 15:27:51,011 INFO /home/lisian/.local/bin/bench --site localhost export-json perfromance
+2025-05-14 15:27:54,840 INFO /home/lisian/.local/bin/bench --site localhost export-json Perfromance
+2025-05-14 15:28:01,503 INFO /home/lisian/.local/bin/bench --site localhost backup
+2025-05-14 15:28:16,132 INFO /home/lisian/.local/bin/bench start
+2025-05-14 15:28:16,458 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-14 15:28:16,468 INFO /home/lisian/.local/bin/bench worker
+2025-05-14 15:28:16,468 INFO /home/lisian/.local/bin/bench watch
+2025-05-14 15:28:16,497 INFO /home/lisian/.local/bin/bench schedule
+2025-05-14 15:28:57,778 INFO /home/lisian/.local/bin/bench --site localhost add-to-hosts
+2025-05-14 15:29:05,297 INFO /home/lisian/.local/bin/bench start
+2025-05-14 15:29:05,621 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-14 15:29:05,623 INFO /home/lisian/.local/bin/bench schedule
+2025-05-14 15:29:05,629 INFO /home/lisian/.local/bin/bench watch
+2025-05-14 15:29:05,641 INFO /home/lisian/.local/bin/bench worker
+2025-05-14 15:29:24,060 INFO /home/lisian/.local/bin/bench --site localhost migrate
+2025-05-14 15:29:27,875 INFO /home/lisian/.local/bin/bench start
+2025-05-14 15:29:28,200 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-14 15:29:28,207 INFO /home/lisian/.local/bin/bench schedule
+2025-05-14 15:29:28,210 INFO /home/lisian/.local/bin/bench worker
+2025-05-14 15:29:28,233 INFO /home/lisian/.local/bin/bench watch
+2025-05-14 17:19:33,412 INFO /home/lisian/.local/bin/bench start
+2025-05-14 17:19:33,965 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-14 17:19:33,969 INFO /home/lisian/.local/bin/bench watch
+2025-05-14 17:19:33,970 INFO /home/lisian/.local/bin/bench schedule
+2025-05-14 17:19:33,971 INFO /home/lisian/.local/bin/bench worker
+2025-05-14 18:00:05,636 INFO /home/lisian/.local/bin/bench --verbose --site all backup
+2025-05-14 23:43:31,531 INFO /home/lisian/.local/bin/bench start
+2025-05-14 23:43:31,968 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-14 23:43:31,971 INFO /home/lisian/.local/bin/bench worker
+2025-05-14 23:43:31,972 INFO /home/lisian/.local/bin/bench schedule
+2025-05-14 23:43:31,980 INFO /home/lisian/.local/bin/bench watch
+2025-05-15 00:00:04,907 INFO /home/lisian/.local/bin/bench --verbose --site all backup
+2025-05-15 00:09:27,477 INFO /home/lisian/.local/bin/bench start
+2025-05-15 00:09:28,231 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-15 00:09:28,232 INFO /home/lisian/.local/bin/bench watch
+2025-05-15 00:09:28,242 INFO /home/lisian/.local/bin/bench worker
+2025-05-15 00:09:28,250 INFO /home/lisian/.local/bin/bench schedule
+2025-05-15 14:49:26,724 INFO /home/lisian/.local/bin/bench start
+2025-05-15 14:49:27,255 INFO /home/lisian/.local/bin/bench worker
+2025-05-15 14:49:27,256 INFO /home/lisian/.local/bin/bench serve --port 8000
+2025-05-15 14:49:27,257 INFO /home/lisian/.local/bin/bench schedule
+2025-05-15 14:49:27,262 INFO /home/lisian/.local/bin/bench watch

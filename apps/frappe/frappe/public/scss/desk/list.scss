@@ -4,6 +4,7 @@
 // }
 
 .freeze-row {
+
 	.level-left,
 	.level-right,
 	.list-row-col {
@@ -43,6 +44,7 @@
 }
 
 .no-list-sidebar {
+
 	&[data-page-route^="List/"],
 	[data-page-route^="List/"] {
 		@include media-breakpoint-up(md) {
@@ -100,6 +102,7 @@
 		flex: 4;
 		min-width: 80%;
 	}
+
 	.level-right {
 		flex: 1;
 		overflow: visible;
@@ -126,7 +129,7 @@
 		justify-content: flex-end;
 		// min-width: 120px;
 
-		& > span {
+		&>span {
 			display: inline-block;
 		}
 
@@ -190,7 +193,7 @@
 		color: var(--text-muted);
 	}
 
-	& > [data-sort-by]:hover {
+	&>[data-sort-by]:hover {
 		cursor: pointer;
 		text-decoration: underline;
 	}
@@ -218,21 +221,25 @@ $level-margin-right: 8px;
 	.btn-group {
 		border: 1px solid var(--border-color);
 		border-radius: var(--border-radius);
+
 		.btn-paging.btn-info {
 			&:not(:first-child) {
 				border-left: 1px solid var(--border-color);
 			}
+
 			background-color: var(--bg-color);
 			color: var(--text-color);
 			font-weight: var(--weight-medium);
 		}
 	}
+
 	.btn-paging {
 		background-color: var(--control-bg);
 	}
 }
 
 .layout-main-list {
+
 	.list-paging-area,
 	.footnote-area {
 		padding: var(--padding-sm) var(--padding-md);
@@ -375,6 +382,7 @@ input.list-header-checkbox {
 		justify-content: flex-end;
 	}
 }
+
 // .like-action.octicon-heart {
 // 	color: $heart-color;
 // }
@@ -452,6 +460,7 @@ input.list-header-checkbox {
 	.icon {
 		width: 14px;
 		height: 14px;
+
 		use {
 			stroke: var(--yellow-800);
 		}

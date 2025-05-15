@@ -279,7 +279,7 @@ frappe.run_serially = function (tasks) {
 	return result;
 };
 
-frappe.load_image = (src, onload, onerror, preprocess = () => {}) => {
+frappe.load_image = (src, onload, onerror, preprocess = () => { }) => {
 	var tester = new Image();
 	tester.onload = function () {
 		onload(this);

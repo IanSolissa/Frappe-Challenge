@@ -28,7 +28,7 @@ export default class Header extends Block {
 		this.wrapper = document.createElement("div");
 		if (!this.readOnly) {
 			let $widget_head = $(`<div class="widget-head"></div>`);
-			let $widget_control = $(`<div class="widget-control"></div>`);
+			let $widget_control = $(`<div class="widget-control "></div>`);
 
 			$widget_head[0].appendChild(this._element);
 			$widget_control.appendTo($widget_head);

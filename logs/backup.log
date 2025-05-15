@@ -1,0 +1,30 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_fa69ba2882116bcc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _fa69ba2882116bcc | /usr/bin/gzip >> ./localhost/private/backups/20250512_120004-localhost-database.sql.gz
+
+Backup Summary for localhost at 2025-05-12 12:00:12.999111
+Config  : /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250512_120004-localhost-site_config_backup.json 213.0B
+Database: /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250512_120004-localhost-database.sql.gz 970.7KiB
+Backup for Site localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_fa69ba2882116bcc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _fa69ba2882116bcc | /usr/bin/gzip >> ./localhost/private/backups/20250513_120005-localhost-database.sql.gz
+
+Backup Summary for localhost at 2025-05-13 12:00:21.766710
+Config  : /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250513_120005-localhost-site_config_backup.json 213.0B
+Database: /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250513_120005-localhost-database.sql.gz 975.8KiB
+Backup for Site localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_fa69ba2882116bcc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _fa69ba2882116bcc | /usr/bin/gzip >> ./localhost/private/backups/20250513_180006-localhost-database.sql.gz
+
+Backup Summary for localhost at 2025-05-13 18:00:23.629117
+Config  : /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250513_180006-localhost-site_config_backup.json 213.0B
+Database: /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250513_180006-localhost-database.sql.gz 983.5KiB
+Backup for Site localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_fa69ba2882116bcc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _fa69ba2882116bcc | /usr/bin/gzip >> ./localhost/private/backups/20250514_180008-localhost-database.sql.gz
+
+Backup Summary for localhost at 2025-05-14 18:00:24.923527
+Config  : /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250514_180008-localhost-site_config_backup.json 213.0B
+Database: /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250514_180008-localhost-database.sql.gz 1006.6KiB
+Backup for Site localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_fa69ba2882116bcc --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _fa69ba2882116bcc | /usr/bin/gzip >> ./localhost/private/backups/20250515_000006-localhost-database.sql.gz
+
+Backup Summary for localhost at 2025-05-15 00:00:14.023989
+Config  : /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250515_000006-localhost-site_config_backup.json 213.0B
+Database: /home/lisian/trash2/frappe-bench/sites/localhost/private/backups/20250515_000006-localhost-database.sql.gz 1007.9KiB
+Backup for Site localhost has been successfully completed

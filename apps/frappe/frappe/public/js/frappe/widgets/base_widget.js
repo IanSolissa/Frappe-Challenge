@@ -79,7 +79,7 @@ export default class Widget {
 					<div class="widget-title"></div>
 					<div class="widget-subtitle"></div>
 				</div>
-				<div class="widget-control"></div>
+				<div class="widget-control "></div>
 			</div>
 			<div class="widget-body"></div>
 			<div class="widget-footer"></div>

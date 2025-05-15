@@ -99,7 +99,11 @@ frappe.ui.Page = class Page {
 				"main",
 				`
 				<div class="layout-main layout-two-column">
-					<div class="layout-side-section"></div>
+			
+					<div class="layout-side-section">
+						
+					</div>
+					
 					<div class="layout-main-section-wrapper">
 						<div class="layout-main-section"></div>
 						<div class="layout-footer hide"></div>
@@ -762,6 +766,9 @@ frappe.ui.Page = class Page {
 		frappe.utils.set_title(tab_title || title);
 		if (icon) {
 			title = `${frappe.utils.icon(icon)} ${title}`;
+		}
+		if (title == "KRA") {
+			title = "Key Result Area"
 		}
 		let title_wrapper = this.$title_area.find(".title-text");
 		title_wrapper.html(title);

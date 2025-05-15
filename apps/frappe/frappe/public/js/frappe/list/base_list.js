@@ -158,9 +158,9 @@ frappe.views.BaseList = class BaseList {
 		return frappe.model.with_doctype(this.doctype);
 	}
 
-	show_skeleton() {}
+	show_skeleton() { }
 
-	hide_skeleton() {}
+	hide_skeleton() { }
 
 	check_permissions() {
 		return true;
@@ -379,15 +379,15 @@ frappe.views.BaseList = class BaseList {
 				<div class="level-left">
 					<div class="btn-group">
 						${paging_values
-							.map(
-								(value) => `
+				.map(
+					(value) => `
 							<button type="button" class="btn btn-default btn-sm btn-paging"
 								data-value="${value}">
 								${value}
 							</button>
 						`
-							)
-							.join("")}
+				)
+				.join("")}
 					</div>
 				</div>
 				<div class="level-right">
@@ -581,9 +581,9 @@ frappe.views.BaseList = class BaseList {
 		// show a freeze message while data is loading
 	}
 
-	before_render() {}
+	before_render() { }
 
-	after_render() {}
+	after_render() { }
 
 	render() {
 		// for child classes
@@ -623,7 +623,46 @@ frappe.views.BaseList = class BaseList {
 class FilterArea {
 	constructor(list_view) {
 		this.list_view = list_view;
-		this.list_view.page.page_form.append(`<div class="standard-filter-section flex"></div>`);
+		if (this.list_view.doctype == "KRA") {
+			this.list_view.page.page_form.append(`
+				<div class="custome-header">
+				<a href="/app/performance">
+					Performance
+				</a>
+				<p style="margin:0px;"> > </p>
+				<a href="/app/performance">
+				Masters
+				</a>
+				<p style="margin:0px;"> > </p>
+				<b>
+					Key Result Area
+				</b>
+				</div>
+				`);
+		}
+		else if (this.list_view.doctype != "KRA") {
+			this.list_view.page.page_form.append(`
+				<div class="custome-header">
+				<a href="/app/performance">
+					Performance
+				</a>
+				<p style="margin:0px;"> > </p>
+				<a href="/app/performance">
+				Masters
+				</a>
+				<p style="margin:0px;"> > </p>
+				<b>
+					${this.list_view.doctype}
+				</b>
+				</div>
+				`);
+		}
+		else {
+			this.list_view.page.page_form.append(`<div class="standard-filter-section flex"></div>`);
+
+		}
+		console.log(this.list_view.doctype)
+
 
 		const filter_area = this.list_view.hide_page_form
 			? this.list_view.page.custom_actions
